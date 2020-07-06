@@ -1,0 +1,36 @@
+body{
+    background-image: url("Digital Water.jpg");}
+div.welcome {
+
+text-align: center;
+background-color:rgb(9, 36, 49);
+color: aliceblue;
+
+}
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(25, 1, 36);
+  }
+
+  li {
+    float: left;
+  }
+
+  .li,a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+ 
+  li a:hover {
+    background-color: #111;
+    text-decoration: none;
+    color: rgb(180, 155, 197);
+  }
